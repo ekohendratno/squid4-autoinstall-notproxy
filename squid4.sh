@@ -158,7 +158,9 @@ touch cache.log
 
 cd
 chown -R proxy:proxy /var/log/squid/
+chown -R proxy:proxy /var/spool/squid
 chmod -R 777 /var/log/squid/
+chmod -R 777 /var/spool/squid
 mkdir /etc/squid/ssl_certs/
 
 echo -e $blue
