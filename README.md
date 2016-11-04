@@ -34,7 +34,7 @@ start the installation with git clone
 ```bash
 #installasi complete software 
 apt-get update && apt-get upgrade -y
-git clone https://github.com/puji122/squid4-autoinstall-notproxy.git
+git clone https://github.com/githubazza/squid4-autoinstall-notproxy.git
 cd squid4-autoinstall-notproxy
 chmod +x squid4.sh
 chmod 777 squid4.sh
