@@ -61,7 +61,7 @@ start () {
 #        $RAMFS mount
 #        $RAMFS restore
  
-        cache_dir=`find_cache_dir cache_dir /cache/cache`
+        cache_dir=`grepconf2 cache_dir /cc-{1,2,3}`
         cache_type=`find_cache_type cache_dir aufs`
  
         #
